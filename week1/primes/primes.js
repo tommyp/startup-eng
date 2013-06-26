@@ -19,5 +19,5 @@ function sieve(n, limit) {
 
 
 
-fs.writeFileSync(outfile, sieve(2, 100));  
+fs.writeFileSync(outfile, sieve(2, 100).join(','));  
 console.log("Script: " + __filename + "\nWrote: To: " + outfile);
