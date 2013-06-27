@@ -12,7 +12,7 @@ function find_primes(start, limit) {
     var square = Math.sqrt(i);
     var jump;
     var factors = []
-    for (j = start; j <= square; j++) {
+    for (j = 2; j <= square; j++) {
       var result, top, bottom;
       result = i/j
       top = Math.ceil(result)
